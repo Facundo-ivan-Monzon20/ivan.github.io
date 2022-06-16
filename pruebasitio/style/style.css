@@ -1,0 +1,114 @@
+html {
+    font-size: 16px;
+    /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
+    font-family: "Open Sans", sans-serif;
+    /* Este debe ser el resto del resultado que obtuviste de Google fonts */
+    background-color: #00539F;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 3px rgb(31, 30, 30);
+}
+
+p {
+    color: black;
+    width: 500px;
+    padding: 5px;
+}
+
+img[src] {
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+p, li {
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #000;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #2b632d
+}
+
+button:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+}
+
+.userButton {
+    background-color: #0c6ac2;
+}
+
+.userButton:hover {
+    background-color: #0d4e8b;
+}
+
+.userButton:active {
+    background-color: #0d4e8b;
+    transform: translateY(4px);
+}
+
+div {
+    display: block;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+
+a:link {
+    color: #337200;
+}
+
+a:visited {
+    color: #444444;
+}
+
+a:focus {
+    border-bottom: 1px solid;
+    background: #BAE498;
+}
+
+a:hover {
+    border-bottom: 1px solid;
+    background: #CDFEAA;
+}
